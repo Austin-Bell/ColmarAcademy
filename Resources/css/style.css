@@ -1,0 +1,445 @@
+/* Universal Styles */
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  color: black;
+  font-family: "Noto" ,sans-serif;
+}
+p{
+  font-family: "Noto", sans-serif;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+  header .mobile-nav {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+  }
+  .header-container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  header .mobile-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  header .mobile-nav ul {
+    padding-left: 0;
+    margin-right: 0;
+  }
+  header .mobile-nav ul li {
+    padding-right: 0;
+  }
+  header .mobile-nav ul li a {
+    margin-left: 0;
+  }
+  nav.desktop-nav {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .banner  {
+    height: 400px;
+    width: auto;
+    margin: 0;
+  }
+  .banner-details {
+    margin-bottom: 1rem;
+    margin: 32px 16px;
+    max-width: 100%
+  }
+  .banner-content {
+    text-align: left;
+    /* width: 90%; */
+    margin: 0 auto;
+  }
+  .banner-content h2 {
+    margin-bottom: 2rem;
+    width: 100%;
+    line-height: 1.2;
+  }
+  .banner-content p {
+    width: 100%;
+    margin-top: 0;
+  }
+  .banner {
+    width: 100%;
+  }
+  .banner-image{
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .practice {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .side-info-desktop {
+    width: 100%;
+  }
+  .info-card-container {
+    margin-top: 0;
+  }
+  .info {
+    flex-direction: column;
+    display: block;
+    -webkit-transition: none;
+    transition: none;
+    padding: 32px 16px;
+  }
+  .info img {
+    display: none;
+  }
+  .info img.mobile {
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+  .info-content {
+    width: 90%;
+    margin: 16px;
+  }
+  .info-content span {
+    font-size: 1.5rem;
+    height: 100px;
+  }
+  .info:hover {
+    background-color: rgb(243, 245, 245);
+  }
+}
+@media only screen and (max-width: 768px) {
+
+  .course-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px;
+  }
+  .course-card {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    margin: 8px 16px;
+  }
+  #course-card-3, #course-card-6 {
+    margin-right: 16px;
+  }
+  .courses h2 {
+    margin: 48px auto 32px auto;
+    text-align: center;
+  }
+  .course-card img {
+    display: none;
+  }
+  .course-card span,{
+    display: none;
+  }
+  .course-card-content {
+    padding: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+  .thesis h2 {
+    margin: 48px auto 48px auto;
+  }
+  .thesis-content {
+    display: none;
+  }
+  #Sidebar {
+    display: none;
+  }
+  .thesis-content {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .thesis-video {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer {
+    height: 90px;
+    top: 0;
+    max-width: 100%;
+    border-top: none;
+    color: rgb(125, 125, 125);
+    background-color: rgb(243, 245, 245);
+  }
+  .t-p {
+    display: none;
+  }
+}
+/* Header Styles */
+.logo{
+  display: flex;
+}
+.entire-logo{
+    display: flex;
+    align-items: center;
+}
+
+.desktop-nav ul{
+  display: inline-flex;
+  margin-left: 600px;
+}
+
+.mobile-nav{
+  display: none;
+}
+.desktop-nav a{
+  margin: 16px;
+  text-decoration: none;
+  font-family: "Noto",sans-serif;
+}
+.colmar-logo{
+  font-family: "Noto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.academy-logo{
+  font-family: "Noto", sans-serif;
+  text-transform: uppercase;
+  color: grey;
+}
+/*Banner Styles */
+div.banner-details{
+  margin-left: 40px;
+  margin-top: 150px;
+}
+button {
+    color: white;
+    background-color: gray;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+
+div.banner-details span{
+  display: block;
+  height: 30px;
+  margin-left: 0px;
+  border-right-width: 3px;
+  width: 400px;
+}
+div.banner-details p{
+  {
+    display: block;
+    width: 200px;
+    height: 10px;
+    margin-left: 75px;
+    margin-bottom: 60px;
+}
+}
+div.banner{
+  background-color: lightgrey;
+    display: inline-flex;
+    align-items: inherit;
+    margin-right: 24px;
+    width:1440px;
+}
+div.banner-image img{
+  width: 700px;
+    margin: 32px 40px 32px 24px;
+}
+div.banner-details span{
+
+}
+/* Practice Styles */
+img.mobile{
+  display: none;
+}
+div.practice{
+  width:800px;
+}
+.practice-details{
+
+  padding-left: 32px;
+}
+.practice-details span{
+  font-family: "Noto",sans-serif;
+}
+div.practice img{
+  width: 711px;
+  margin: 32px 24px;
+}
+div.practice-container{
+  display: inline-flex;
+  flex-flow: row;
+}
+.side-info-desktop{
+
+}
+.info{
+  margin-top: 16px;
+}
+div.info{
+display: flex;
+  align-items: center;
+}
+div.info-content{
+  font-family: "Noto",sans-serif;
+  display: inline-table;
+  margin-left: 32px;
+}
+div.info-content h3{
+  font-size: x-large;
+}
+div.info-content a{
+  text-decoration: none;
+  display: block;
+  margin: 8px 8px;
+}
+div.info-content p{
+  display: block;
+    height: 50px;
+    width: 300px;
+}
+div.info-content span{
+  display: block;
+  width: 250px;
+}
+div.info img{
+  width: 175px;
+}
+/* Learning Styles */
+.courses{
+font-family: "Noto",sans-serif;
+  text-align: center;
+color: rgb(201, 202, 204);
+}
+div.course-container{
+  background-color: rgb(242, 242, 242);
+  flex-wrap: wrap;
+  display: inline-flex;
+}
+div.course-card img{
+  height: 189px;
+  width: 370px;
+}
+div.course-card{
+  margin-top: 32px;
+  margin-right: 32px;
+    background-color: white;
+    width: 370px;
+    height:422px;
+    margin-left: 18px;
+}
+.course-content{
+  padding-left: 32px;
+}
+.course-content span{
+  font-family: "Noto",sans-serif;
+  color: lightgray;
+}
+.course-content h3{
+  font-family: "Noto", sans-serif;
+  color: rgb(58, 60, 63);
+}
+.course-content p{
+  color: lightgray;
+}
+.card-content{
+  padding-left: 16px;
+}
+.card-content span{
+  font-family: "Noto", sans-serif;
+  color: lightgray;
+}
+.card-content p{
+  font-family: "Noto",sans-serif;
+  color: lightgray;
+  font-weight: 300;
+}
+.card-content h3{
+  font-size: larger;
+  color: rgb(58, 60, 63);
+  font-family: "Noto", sans-serif;
+}
+/* Sidebar Styles */
+div#Sidebar{
+  margin-bottom: 195px;
+  padding-left: 16px;
+}
+div#info.info{
+  padding: 16px 16px;
+}
+div.info-content.flex span{
+  display: block;
+    height: 100px;
+    width: 220px;
+}
+div.info-content.flex{
+  font-family: "Noto",sans-serif;
+}
+div.info-card{
+  background-color: lightgray;
+}
+/* Thesis Styles */
+.thesis-container{
+  padding-left: 16px;
+}
+.thesis-content h3{
+  font-family: "Noto",sans-serif;
+font-size: 24px;
+}
+.thesis-content p{
+  color: rgb(58,60,63);
+}
+.thesis{
+  text-align: center;
+}
+.thesis-video video{
+  width: 719px;
+  height: 404px;
+}
+.Entire-thesis{
+  display: flex;
+align-items: center;
+}
+/* Footer Styles */
+.footer{
+  color: rgb(201, 202, 204);
+  margin-left: 24px;
+  display: -webkit-box;
+}
+.t-p{
+  margin-left: 850px;
+}
+.t-p a{
+  color: rgb(201, 202, 204);
+  text-decoration: none;
+}
